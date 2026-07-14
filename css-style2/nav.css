@@ -1,0 +1,26 @@
+nav ul{list-style-type: none; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: light grey;
+}
+nav ul li a:active{
+    color: light grey;
+}
+nav ul li a:focus{
+    color: light grey;
+}
+nav ul li a:visited{
+    color: light grey;
+}
+nav ul li{
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
