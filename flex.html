@@ -4,24 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex Layout</title>
+    <style>
+        div{
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 5px;
+        }
+        .container {
+            display: flex;
+        }
+        .box {
+            flex: 1;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 5px;
+        }
+        .user-container {
+            display: flex;
+        }
+        .user {
+            flex: 1;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 5px;
+        }
+     </style>
 </head>
 <body>
+    <div class="user-container">
+        <div class="user">user 1</div>
+        <div class="user">user 2</div>
+        <div class="user">user 3</div>
+        <div class="user">user 4</div>
+        <div class="user">user 5</div>
+    </div>
+    <div class="container">
+        <div class="box">box 1</div>
+        <div class="box">box 2</div>
+        <div class="box">box 3</div>
+        <div class="box">box 4</div>
+        <div class="box">box 5</div>
+    </div>
     <div>
         <article>
             <section>
                 <h2></h2>
             </section>
         </article>
+    </div>
+    <div>
         <article>
             <section>
                 <h2></h2>
+                <p></p>
+                <p></p>
             </section>
         </article>
         <article>
             <section>
                 <h2></h2>
+                <p></p>
+                <p></p>
+            </section>
+        </article>
+        <article>
+            <section>
+                <h2></h2>
+                <p></p>
+                <p></p>
             </section>
         </article>
     </div>
+ <div class="container">
+    <h2 class="header" id="first">Flex Layout</h2>
+ </div>
+ <ul class="container">
+    <li class="item">item 1</li>
+    <li class="item">item 2</li>
+    <li class="item">item 3</li>
+    <li class="item">item 4</li>
+    <li class="item">item 5</li>
+ </ul>
 </body>
 </html>
